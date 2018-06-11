@@ -1,0 +1,11 @@
+.messages {
+    height: 100%;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    background: none;
+
+    flex-direction: column;
+    justify-content: flex-end;
+}

@@ -1,0 +1,38 @@
+.tittletattle-input .form-group .input-group .form-control {
+
+}
+
+.tittletattle-input .form-group {
+    margin: 0;
+}
+
+.tittletattle-input .form-control:focus,
+.tittletattle-input .form-control {
+    border: none;
+    background: none;
+}
+
+.tittletattle-input .form-control {
+    border-radius: 0 0 0 1em;
+}
+
+.tittletattle-input .form-control:focus,
+.tittletattle-input .form-control {
+    line-height: 2em;
+    color: white;
+}
+
+.tittletattle-input .form-control:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 132, .25);
+}
+
+.tittletattle-input .input-group > .input-group-prepend > .btn {
+    border-bottom-right-radius: 1em;
+    background: rgba(0, 0, 0, .25);
+    color: white;
+    border: none;
+}
+
+.tittletattle-input .btn-secondary:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 0, 132, .25);
+}

@@ -1,0 +1,48 @@
+.message .text {
+    text-align: left;
+
+    margin: 0.25em 2em 0.5em 0.5em;
+    padding: 0.65em 1em;
+    height: auto;
+
+    background: white;
+
+    border-radius: 0.75em 0.75em 0.75em 0;
+
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, .35);
+    color: white;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.message.mine {
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.message .user {
+}
+
+.message .text {
+}
+
+.message.mine .text {
+    text-align: right;
+    margin: 0.25em 0.5em 0.5em 4em;
+    border-radius: 0.75em 0.75em 0 0.75em;
+    background: linear-gradient(to right, #ff5eb1 0%, #ff0084 100%);
+}
+
+.example-appear {
+    opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity .25s ease-in;
+}

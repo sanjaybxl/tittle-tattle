@@ -1,0 +1,30 @@
+.tittletattle {
+
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .5);
+    border-radius: 1em;
+}
+
+.tittletattle-header {
+    background: rgba(0, 0, 0, .25);
+    border-radius: 1em 1em 0 0;
+}
+
+.tittletattle-header .col {
+    line-height: 3.5em;
+    text-align: right;
+}
+
+.tittletattle-footer {
+    background: rgba(0, 0, 0, .25);
+    border-radius: 0 0 1em 1em;
+}
+
+.tittletattle-footer .col {
+    padding: 0;
+}
+
+.tittletattle .row:nth-child(2) .col {
+    padding-right: 7px;
+    height: 20em;
+}
